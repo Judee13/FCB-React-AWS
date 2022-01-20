@@ -15,14 +15,17 @@ body{
 }
 
 .app-header {
-  background-color: beige;
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: indianred;
+  color: white;
+}
+.app-header p{
+  color: aqua;
 }
 
 ul {
@@ -31,7 +34,7 @@ ul {
 }
 
 .tasks-item {
-  border: 1px solid #ebccd2;
+  border: 1px solid aqua;
   margin-bottom: 15px;
   padding: 15px;
   border-radius: 5px;
