@@ -16,15 +16,17 @@ function TasksList() {
 		"Follow Edukasyon.ph on Instagram.",
 		"Follow AWS Siklab Pilipinas on Instagram.",
 		"Follow Zuitt Coding Bootcam on Instagram."
-
 	];
 
 	return (
-	    <ul>
-	      	{taskItemList.map((task , index) => {
-	      		return <Task key={index} taskName={task} />;
-	      	})}
-	    </ul>
+		<div>
+			<input className="task-input"/>
+			    <ul>
+			      	{taskItemList.map((task , index) => {
+			      		return <Task key={index} taskName={task} />;
+			      	})}
+			    </ul>
+		</div>
 	);
 }
 
